@@ -1,0 +1,7 @@
+query blogPreviewQuery($slug: String!, $preview: Boolean!) {
+  blog: blogCollection(preview: $preview, where: { slug: $slug }) {
+    items {
+      slug
+    }
+  }
+}

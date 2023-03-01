@@ -1,0 +1,5 @@
+query homeQuery($pageId: String!, $preview: Boolean!) {
+  homePage(id: $pageId, preview: $preview) {
+    title
+  }
+}
