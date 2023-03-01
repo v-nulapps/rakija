@@ -1,0 +1,7 @@
+query aboutQuery {
+  about {
+    title
+    subtitle
+    description
+  }
+}
